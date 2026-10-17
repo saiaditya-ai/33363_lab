@@ -1,9 +1,13 @@
 # Simple Student Management App
 
 students = {
-    "101": {"name": "Aditya", "course": "CSE", "marks": 85},
-    "102": {"name": "Surya", "course": "ECE", "marks": 78}
+    "101": {"name": "Alice", "course": "CSE", "marks": 85},
+    "102": {"name": "Bob", "course": "ECE", "marks": 78},
+    "103": {"name": "Charan", "course": "MECH", "marks": 90}
 }
+
+def add_student(roll, name, course, marks):
+    students[roll] = {"name": name, "course": course, "marks": marks}
 
 def display_students():
     print("--- Student Details ---")
