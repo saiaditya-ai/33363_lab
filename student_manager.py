@@ -10,7 +10,7 @@ def add_student(roll, name, course, marks):
     students[roll] = {"name": name, "course": course, "marks": marks}
 
 def display_students():
-    print("--- Student Details ---")
+    print("*** FEATURE BRANCH: Student Directory ***")
     for roll, info in students.items():
         print(f"Roll: {roll} | Name: {info['name']} | Course: {info['course']} | Marks: {info['marks']}")
 
